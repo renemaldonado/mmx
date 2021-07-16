@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-16T14:52:17.985Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="rS_02AAMUK6QnlWjkWgq" version="14.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-16T14:53:39.476Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="apKjfL5V_gOTWl4wvRLC" version="14.4.9" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="940" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -30,11 +30,11 @@
         <mxCell id="pzEMn2OBgUVC1diUB32a-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pzEMn2OBgUVC1diUB32a-62" target="pzEMn2OBgUVC1diUB32a-65">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pzEMn2OBgUVC1diUB32a-62" value="Ping" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="pzEMn2OBgUVC1diUB32a-62" value="Ping to EAI" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="190" y="90" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pzEMn2OBgUVC1diUB32a-72" value="ERP" style="swimlane;startSize=30;" vertex="1" parent="1">
-          <mxGeometry x="60" y="50" width="350" height="300" as="geometry" />
+          <mxGeometry x="60" y="50" width="350" height="280" as="geometry" />
         </mxCell>
         <mxCell id="pzEMn2OBgUVC1diUB32a-77" value="SOAP Message" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="pzEMn2OBgUVC1diUB32a-72">
           <mxGeometry x="110" y="226" width="120" height="30" as="geometry" />
@@ -61,7 +61,7 @@
           <mxGeometry x="250" y="70" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pzEMn2OBgUVC1diUB32a-73" value="Alerts Server" style="swimlane;startSize=36;" vertex="1" parent="1">
-          <mxGeometry x="430" y="330" width="200.00000000000003" height="200" as="geometry">
+          <mxGeometry x="450" y="270.98" width="200.00000000000003" height="200" as="geometry">
             <mxRectangle x="310" y="254" width="110" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -79,22 +79,22 @@
         </mxCell>
         <mxCell id="pzEMn2OBgUVC1diUB32a-76" value="Alert" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.033;entryY=0.45;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="pzEMn2OBgUVC1diUB32a-95" target="pzEMn2OBgUVC1diUB32a-75">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="751" y="351" as="sourcePoint" />
+            <mxPoint x="771" y="291.98" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pzEMn2OBgUVC1diUB32a-75" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#9673a6;shadow=0;dashed=0;shape=mxgraph.ios7.icons.smartphone;fillColor=#e1d5e7;" vertex="1" parent="1">
-          <mxGeometry x="800" y="424" width="30" height="60" as="geometry" />
+        <mxCell id="pzEMn2OBgUVC1diUB32a-75" value="Personal &lt;br&gt;Phone" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#9673a6;shadow=0;dashed=0;shape=mxgraph.ios7.icons.smartphone;fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="820" y="364.98" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pzEMn2OBgUVC1diUB32a-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="pzEMn2OBgUVC1diUB32a-77" target="pzEMn2OBgUVC1diUB32a-88">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pzEMn2OBgUVC1diUB32a-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pzEMn2OBgUVC1diUB32a-93" target="pzEMn2OBgUVC1diUB32a-95">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="760" y="351" as="targetPoint" />
+            <mxPoint x="780" y="291.98" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pzEMn2OBgUVC1diUB32a-95" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/306_Slack_logo-128.png" vertex="1" parent="1">
-          <mxGeometry x="680" y="427" width="48" height="48" as="geometry" />
+        <mxCell id="pzEMn2OBgUVC1diUB32a-95" value="Slack" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/306_Slack_logo-128.png" vertex="1" parent="1">
+          <mxGeometry x="700" y="367.98" width="48" height="48" as="geometry" />
         </mxCell>
         <mxCell id="pzEMn2OBgUVC1diUB32a-97" value="AMOS" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/windows_server.svg;" vertex="1" parent="1">
           <mxGeometry x="740.8" y="15" width="49.2" height="60" as="geometry" />
